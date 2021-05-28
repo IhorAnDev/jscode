@@ -1,24 +1,25 @@
 "use strict";
 
-const str = "teSt";
+function first() {
+    // Do something
+    setTimeout(function () {
+        console.log('1');
+    }, 500);
+}
 
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
-console.log(str);
+function second() {
+    console.log('2');
+}
+first();
+second();
 
-let fruit = "Some fruit";
+function learJS(lang, callback) {
+    console.log(`i know: ${lang}`);
+    callback();
+}
 
-console.log(fruit.indexOf("fruit"));
+function funcJS() {
+    console.log('ya znay js');
+}
 
-const logg = "Hello World";
-
-console.log(logg.slice(6, 11));
-
-console.log(logg.substr(0, 5));
-
-
-const num = 12.2;
-console.log(Math.round(num));
-
-const test = "12.2px";
-console.log(typeof (parseInt(test)));
+learJS('JS', funcJS);
