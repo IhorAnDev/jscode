@@ -1,0 +1,108 @@
+{
+    "basics": {
+        "name": "Olga Khrolova",
+        "label": "Senior project manager ",
+        "picture": "",
+        "email": "",
+        "phone": "",
+        "website": "",
+        "summary": "",
+        "location": {
+            "countryCode": "RU",
+            "address": ""
+        },
+        "profiles": [
+            {
+                "network": "LinkedIn",
+                "username": "olga-khrolova-01b582143",
+                "url": "https://www.linkedin.com/in/olga-khrolova-01b582143/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "xCritical & Software",
+            "endDate": "",
+            "highlights": [],
+            "startDate": "2020-09-30",
+            "website": "https://www.linkedin.com/company/xcritical-software/"
+        },
+        {
+            "company": "Kozyris & Co",
+            "endDate": "2021-01-31",
+            "highlights": [],
+            "startDate": "2019-02-28",
+            "website": ""
+        },
+        {
+            "company": "Web-studio \"Siluet\"",
+            "endDate": "2019-02-28",
+            "highlights": [],
+            "startDate": "2017-12-31",
+            "website": ""
+        },
+        {
+            "company": "ГиперМетод",
+            "endDate": "2017-12-31",
+            "highlights": [],
+            "startDate": "2016-03-31",
+            "website": ""
+        },
+        {
+            "company": "BSS",
+            "endDate": "2016-02-28",
+            "highlights": [],
+            "startDate": "2014-10-31",
+            "website": ""
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Университет ИТМО",
+            "area": "Business informatics",
+            "studyType": "Bachelor's degree",
+            "startDate": "2010-12-31",
+            "endDate": "2014-12-31",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "awards": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Установление деловых контактов",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Настольные компьютеры",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Управление проектами",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Управление командой",
+            "level": "",
+            "keywords": []
+        },
+        {
+            "name": "Поддержка клиентов",
+            "level": "",
+            "keywords": []
+        }
+    ],
+    "languages": [
+        {
+            "language": "ru",
+            "fluency": "Native Speaker"
+        }
+    ],
+    "interests": [],
+    "references": []
+}

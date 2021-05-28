@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="fullCenter">
+            <button id="liToJsonButton" class="mainButton disabled toggle"
+                title="Export profile to JSON Resume">LinkedIn Profile to JSON</button>
+            <button id="liToJsonDownloadButton" class="mainButton emojiButton disabled toggle"
+                title="Download JSON Resume Export">💾</button>
+            <button id="vcardExportButton" class="mainButton emojiButton disabled toggle"
+                title="Download vCard File">📠</button>
+        </div>
+        <div class="showConsole">
+            <div class="button">
+                <button disabled id="consoleLogJsonButton" class="mainButton disabled toggle "
+                    title="Show to JSON Resume">Redirect to
+                    bitrix24
+                </button>
+            </div>
+            <div class="input">
+                <input id="bitrix_user_id_input" class="inputArea" type="number" placeholder="enter id">
+            </div>
+        </div>
+        <div class="radio">
+            <input type="radio" id="leadSex" name="human" value="man">
+            <label for="leadSex">Г-н</label>
+            <input type="radio" id="leadSex1" name="human" value="female">
+            <label for="leadSex">Г-жа</label>
+        </div>
+        <div class="inputUser">
+            <input id="bitrix_user_id_name" class="inputUsers" type="number" placeholder="enter user name">
+        </div>
+        <div class="fullCenter">
+            <div class="langSelectWrapper">
+                <label>
+                    Select export language:
+                    <select id="langSelect" class="langSelect toggle">
+                        <option value="en_US">en_US</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        <div class="fullCenter">
+            <div class="specSelectWrapper">
+                Select JSONResume version:
+                <select id="specSelect">
+                    <option value="stable" selected>Stable (v0.0.16)</option>
+                    <option value="latest">Latest (v0.1.3)</option>
+                    <option value="beta">Beta (v0.1.3 + extra)</option>
+                </select>
+            </div>
+        </div>
+        <div class="fullCenter bottomButtonsWrapper">
+            <a class="bottomButton" href="https://github.com/joshuatz/linkedin-to-jsonresume" target="_blank"
+                title="Info about the extension. Takes you to Github page.">
+                <div>Info</div>
+            </a>
+            <a class="bottomButton" href="https://github.com/joshuatz/linkedin-to-jsonresume/issues/new" target="_blank"
+                title="Report an issue or request a feature.">
+                <div>Report Issue</div>
+            </a>
+        </div>
+        <div class="fullCenter">
+            <span>Version: </span><span id="versionDisplay">{version_string}</span>
+        </div>
+    </div>
+    <script src="script3.js"></script>
+    <script src="script1.js"></script>
+</body>
+
+</html>
